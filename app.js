@@ -41,7 +41,7 @@ function ViewSelect(res) {
             for (let i = 0; i < data.length; i++) {
                 res.write('<tr><td>' + String(data[i].id) + '</td><td>' + data[i].earth_position  + '</td><td>' + data[i].sun_position  + '</td><td>' + data[i].moon_position + '</td></tr>');
             }
-        }
+    }
 }
 	
 function ViewVer(res) {
